@@ -7,21 +7,27 @@ import com.aman.data.entities.NewsEntityDataMapper
 import com.aman.domain.entities.NewsSourcesEntity
 import io.reactivex.Flowable
 
-class NewsCacheImpl(private val database: NewsDatabase,
-                    private val entityToDataMapper: NewsEntityDataMapper,
-                    private val dataToEntityMapper: NewsDataEntityMapper) : NewsDataStore {
+class NewsCacheImpl(
+    database: NewsDatabase,
+    private val entityToDataMapper: NewsEntityDataMapper,
+    private val dataToEntityMapper: NewsDataEntityMapper
+) : NewsDataStore {
 
     private val dao: ArticlesDao = database.getArticlesDao()
 
     override fun getNews(): Flowable<NewsSourcesEntity> {
-        return dao.getAllArticles().map { it ->
+        return dao.getAllArticles().map {
             dataToEntityMapper.mapToEntity(it)
         }
     }
 
     fun saveArticles(it: NewsSourcesEntity) {
         dao.clear()
-        dao.saveAllArticles(it.articles.map { articles -> entityToDataMapper.mapArticleToEntity(articles) })
+        dao.saveAllArticles(it.articles.map { articles ->
+            entityToDataMapper.mapArticleToEntity(
+                articles
+            )
+        })
     }
 
 }

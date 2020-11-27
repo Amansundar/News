@@ -41,14 +41,20 @@ dependencies {
     implementation rootProject.ext.retrofitRxJava2Adapter
     implementation rootProject.ext.room
 
-    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.9'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0-beta01'
     implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'co.lujun:androidtagview:1.1.4'
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.4'
     releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
 
-    testImplementation rootProject.ext.junit
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'androidx.test:core:1.0.0'
+    testImplementation 'android.arch.core:core-testing:1.1.1'
+    testImplementation 'com.squareup.okhttp3:mockwebserver:3.8.1'
+    testImplementation "io.mockk:mockk:1.10.0"
+
     testImplementation rootProject.ext.mockito
     androidTestImplementation rootProject.ext.androidTestRunner
     androidTestImplementation 'org.mockito:mockito-android:2.18.3'

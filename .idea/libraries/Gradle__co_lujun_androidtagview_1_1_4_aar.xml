@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: co.lujun:androidtagview:1.1.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5abbe6fe4a9eb8ad9fc449cd5db92d3f/jetified-androidtagview-1.1.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5abbe6fe4a9eb8ad9fc449cd5db92d3f/jetified-androidtagview-1.1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5abbe6fe4a9eb8ad9fc449cd5db92d3f/jetified-androidtagview-1.1.4/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.lujun/androidtagview/1.1.4/13e58d5c013284f53ae6944ee327677d25a301df/androidtagview-1.1.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.lujun/androidtagview/1.1.4/c439d1df5c6cf3aacd595709d5318a3b7c856790/androidtagview-1.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

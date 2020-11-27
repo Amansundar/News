@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RemoteNews.iml" filepath="$PROJECT_DIR$/RemoteNews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/News.iml" filepath="$PROJECT_DIR$/.idea/modules/News.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Presentation/News.Presentation.iml" filepath="$PROJECT_DIR$/.idea/modules/Presentation/News.Presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/News.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/News.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/News.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/News.domain.iml" />
     </modules>
   </component>
 </project>

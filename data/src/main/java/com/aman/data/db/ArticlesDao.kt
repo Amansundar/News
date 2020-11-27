@@ -8,7 +8,7 @@ import com.aman.data.entities.NewsPublisherData
 import io.reactivex.Flowable
 
 @Dao
-interface ArticlesDao{
+interface ArticlesDao {
 
     @Query("Select * from news_articles")
     fun getAllArticles(): Flowable<List<NewsPublisherData>?>

@@ -1,6 +1,6 @@
 package com.aman.domain.common
 
-abstract class Mapper<in T,E>{
+abstract class Mapper<in T, E> {
 
     abstract fun mapFrom(from: T): E
 

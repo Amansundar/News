@@ -1,14 +1,13 @@
 package com.aman.news
 
-import androidx.lifecycle.Observer
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.aman.news.entities.Status
 import kotlinx.android.synthetic.main.news_articles.*
 import org.koin.android.viewmodel.ext.android.viewModel
-import com.aman.news.R
-import com.aman.news.entities.Status
 
 class NewsActivity : AppCompatActivity() {
 

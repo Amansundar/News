@@ -1,12 +1,11 @@
 package com.aman.news
 
-import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import kotlinx.android.synthetic.main.news_item.view.*
-import com.aman.news.R
+import androidx.recyclerview.widget.RecyclerView
 import com.aman.news.entities.NewsPublisher
+import kotlinx.android.synthetic.main.news_item.view.*
 
 class NewsListAdapter : RecyclerView.Adapter<NewsListAdapter.NewsViewHolder>() {
 
